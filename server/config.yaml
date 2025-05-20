@@ -8,8 +8,8 @@ email:
   host: smtp.qq.com
   port: 465
   from: 623616169@qq.com
-  nickname: 发件人昵称
-  secret: joey
+  nickname: 夏
+  secret: jpixajtaxmgzbbhj
   is_ssl: true
 es:
   url: http://127.0.0.1:9200

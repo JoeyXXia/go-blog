@@ -1,1 +1,8 @@
 2025-05-19T21:38:00.924+0800	INFO	core/server.go:18	server run success on 	{"address": "0.0.0.0:8080"}
+2025-05-26T21:29:23.112+0800	ERROR	initialize/gorm.go:20	Failed to connect to MYSQL	{"error": "Error 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)"}
+2025-05-26T21:33:14.827+0800	ERROR	initialize/gorm.go:20	Failed to connect to MYSQL	{"error": "Error 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)"}
+2025-05-26T21:33:34.729+0800	ERROR	initialize/gorm.go:20	Failed to connect to MYSQL	{"error": "Error 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)"}
+2025-05-26T21:36:34.340+0800	ERROR	initialize/gorm.go:20	Failed to connect to MYSQL	{"error": "Error 1049 (42000): Unknown database 'blog_db'"}
+2025-05-26T21:36:51.446+0800	ERROR	initialize/gorm.go:20	Failed to connect to MYSQL	{"error": "Error 1049 (42000): Unknown database 'blog_db'"}
+2025-05-26T21:50:39.767+0800	ERROR	initialize/redis.go:21	Failed to connect Redis	{"error": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+2025-05-26T21:53:23.153+0800	INFO	core/server.go:18	server run success on 	{"address": "0.0.0.0:8080"}

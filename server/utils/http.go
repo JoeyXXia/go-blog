@@ -9,10 +9,10 @@ import (
 
 // HttpRequest 函数用于发送HTTP请求
 func HttpRequest(
-	urlStr string,             // 请求的URL字符串
-	method string,             // 请求方法（GET, POST等）
+	urlStr string, // 请求的URL字符串
+	method string, // 请求方法（GET, POST等）
 	headers map[string]string, // 请求头（如 Content-Type 等）
-	params map[string]string,  // 查询参数（如 ?key=value&key2=value2）
+	params map[string]string, // 查询参数（如 ?key=value&key2=value2）
 	data any) (*http.Response, error) { // 请求体的内容（如果有的话）
 
 	// 创建URL对象

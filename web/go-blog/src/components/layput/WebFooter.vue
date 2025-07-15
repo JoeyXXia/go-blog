@@ -131,7 +131,7 @@ const publicSecurityFilingLink = computed(
 // ])
 </script>
 
-<style scoped lang="scss">
+<style scoped lang="less">
 .web-footer {
   display: flex;
   justify-content: center;
